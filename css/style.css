@@ -1,0 +1,87 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+.debug{
+    border: 1px solid black;
+    
+}
+
+
+/* corpo */
+
+main{
+    width: 900px;
+    margin:30px auto;
+    font-size: 0px;
+
+}
+
+.card{
+    width: 300px;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+.card-image{
+    position: relative;
+}
+
+.card-image img{
+    width: 100%;
+    
+
+}
+
+.heart{
+    position: absolute;
+    top: 25px;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    padding: 3px 7px;
+}
+.label{
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    color: white;
+}
+
+.card-discount{
+    background-color: red;
+    padding: 4px 5px;
+
+}
+.card-tag{
+    background-color: green;
+    padding: 4px 5px;
+}
+
+.overlay{
+    display: none;
+    
+}
+
+.card-image:hover .overlay{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.price{
+    color: red;
+    font-weight: bolder;
+}
+
+.price2{
+    color: black;
+    text-decoration: line-through;
+}
